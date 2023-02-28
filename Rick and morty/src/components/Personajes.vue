@@ -38,7 +38,13 @@ export default {
   <h2 class="flex text-center justify-center gap-10 p-5">
     Hay {{ info.count }} personajes en el programa de Rick & Morty
   </h2>
-  <button @click="pag(cont)">página {{ cont }}</button>
+  <button @click="pag(cont)">{{ cont }}</button>
+  <button
+    class="bg-cyan-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+    @click="pag(cont)"
+  >
+    página {{ cont }}   
+  </button>
   <ul>
     <li v-for="p in personajes" class="flex text-center justify-center gap-10 p-5">
       <!--centrar imagenes-->
