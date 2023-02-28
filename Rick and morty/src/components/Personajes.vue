@@ -40,12 +40,21 @@ export default {
 </script>
 
 <template>
-  <h2>Hay {{ info.count }} personajes en el programa de Rick & Morty</h2>
+  <h2 class="flex text-center justify-center gap-10 p-5">Hay {{ info.count }} personajes en el programa de Rick & Morty </h2>
   <button @click="pag(cont)">página {{ cont }}</button>
   <ul>
-    <li v-for="p in personajes">
-      <a >{{ p.name }} id:{{ p.id }}</a> 
-      <img v-bind:src="p.image"  alt="no image">
+    <li v-for="p in personajes" class="flex text-center justify-center gap-10 p-5"><!--centrar imagenes-->
+      <a >{{ p.name }} id:{{ p.id }} estado:{{ p.status }}</a> 
+      <img v-bind:src="p.image"  alt="no image"><!--lector de imagenes-->
+
     </li>
   </ul>
 </template>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+*{
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+</style>
+<!style es donde esta el fondo del texto-->

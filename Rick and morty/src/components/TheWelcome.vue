@@ -15,7 +15,7 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #heading>Documentation</template>
 
     Vue’s
-    <a href="27.jpeg" target="_blank" rel="noopener">official documentation</a>
+    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
     provides you with all information you need to get started.
   </WelcomeItem>
 
@@ -84,3 +84,10 @@ import SupportIcon from './icons/IconSupport.vue'
     <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
   </WelcomeItem>
 </template>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+h2{
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+</style>

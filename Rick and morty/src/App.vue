@@ -90,3 +90,11 @@ nav a:first-of-type {
   }
 }
 </style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+h2{
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+</style>

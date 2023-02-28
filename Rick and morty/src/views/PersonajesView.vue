@@ -10,6 +10,3 @@ import Personajes from "../components/Personajes.vue";
   </div>
 </template>
 
-<style>
-
-</style>
